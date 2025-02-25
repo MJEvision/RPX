@@ -1,0 +1,148 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: #081226;
+    }
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+}
+
+.FrameCt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.frame {
+    width: 1250px;
+    height: 100vh;
+    background-color: #333;
+    border-radius: 10px 10px 0 0;
+    padding: 60px;
+    height: 370vh;
+}
+
+.TextCt {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #f0f0f0;
+    background-color: #333;
+}
+
+.TextCt2 {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    background-color: transparent;
+    font-family: "Outfit", serif;
+    font-size: 25px;
+    font-weight: 500;
+    gap: 20px;
+}
+
+.text {
+    font-family: "Outfit", serif;
+    font-weight: 800;
+    font-size: 90px;
+    background-color: #333;
+}
+
+.text2 {
+    background-color: transparent;
+    color: #fff;
+    font-family: "Outfit", serif;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 2%;
+}
+
+.text3 {
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    font-size: 40px;
+    background-color: #333;
+    line-height: 1.5;
+}
+
+.text4 {
+    width: 1150px;
+    font-family: 'Pretendard-Regular';
+    font-weight: 600;
+    font-size: 25px;
+    color: #999;
+    background-color: #333;
+}
+
+.line {
+    position: absolute;
+    transform: translate(-35px, 280px);
+    width: 1200px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.text5 {
+    padding-left: 2%;
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 3%;
+    color: #f0f0f0;
+    background-color: #333;
+}
+
+.Px, .Px2, .Px3 {
+    margin-top: 2%;
+    width: 1140px;
+    height: 600px;
+}
+
+.text6, .text7, .text8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Pretendard-Regular';
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    background-color: #333;
+    letter-spacing: 1.2px;
+}
+
+.arrow, .arrow2 {
+    position: absolute;
+    transform: translate(40px, -540px);
+    background-color: transparent;
+    width: 70px;
+    height: 50px;
+    rotate: 90deg;
+}
+
+.arrow2 {
+    transform: translate(40px, -550px)
+}
+
+.Px2 {
+    margin-top: 12%;
+}
+
+.Px3 {
+    margin-top: 13%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", serif;
+    font-size: 25px;
+    color: #555;
+    background-color: transparent;
+    margin-top: 3%;
+}

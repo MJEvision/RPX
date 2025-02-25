@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: #081226;
+}
+
+.text  {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-family: "Outfit", serif;
+    font-weight: 800;
+    font-size: 80px;
+    color: #f0f0f0;
+    margin-top: 2%;
+}
+
+.text2  {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    font-size: 20px;
+    color: #999;
+    margin-top: 10px;
+}
+
+.converter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 7%;
+}
+
+.text3, .text4 {
+    font-family: "Outfit", serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    transform: translate(-350%, 10%);
+    background-color: transparent;
+}
+
+.text4 {
+    position: absolute;
+    transform: translate(870%, 10%);
+}
+
+.input {
+    width: 500px;
+    height: 200px;
+    background: transparent;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    color: #f0f0f0;
+    text-align: center;
+    outline: none;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Pretendard-Regular';
+}
+
+.input:focus {
+    border-color: #4a90e2;
+}
+
+.arrow {
+    width: 80px;
+    height: 100px;
+}
+
+.input::-webkit-outer-spin-button,x
+.input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", serif;
+    font-size: 20px;
+    color: #444;
+    margin-top: 13%;
+}
