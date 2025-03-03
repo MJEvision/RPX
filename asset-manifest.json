@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/RPX/static/css/main.c7c6240f.css",
+    "main.js": "/RPX/static/js/main.96bf0426.js",
+    "static/media/Px3.png": "/RPX/static/media/Px3.cfa614b9953f19eaa286.png",
+    "static/media/Px2.png": "/RPX/static/media/Px2.f7452118d35fa7e9342c.png",
+    "static/media/Px.png": "/RPX/static/media/Px.086d74b82ef170fdb70e.png",
+    "static/media/logo.svg": "/RPX/static/media/logo.40e174583bc469fdaa8918966dac361f.svg",
+    "static/media/arrow.svg": "/RPX/static/media/arrow.0677c1f9b4d95bc0a4b7c21b26737498.svg",
+    "index.html": "/RPX/index.html",
+    "main.c7c6240f.css.map": "/RPX/static/css/main.c7c6240f.css.map",
+    "main.96bf0426.js.map": "/RPX/static/js/main.96bf0426.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7c6240f.css",
+    "static/js/main.96bf0426.js"
+  ]
+}
