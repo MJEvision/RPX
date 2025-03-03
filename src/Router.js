@@ -9,13 +9,13 @@ import About from "./pages/About/about";
 function AppRouter() {
   return (
     <Routes>
-      <Route path="/" element={<Vh />} />
-      <Route path="about" element={<About />} />
-      <Route path="vh" element={<Vh />} />
-      <Route path="vw" element={<Vw />} />
-      <Route path="percent" element={<Percent />} />
-      <Route path="rem" element={<Rem />} />
-      <Route path="em" element={<Em />} />
+      <Route path="*" element={<Vh />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/vh" element={<Vh />} />
+      <Route path="/vw" element={<Vw />} />
+      <Route path="/percent" element={<Percent />} />
+      <Route path="/rem" element={<Rem />} />
+      <Route path="/em" element={<Em />} />
     </Routes>
   );
 }
