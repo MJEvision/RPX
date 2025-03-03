@@ -3,7 +3,7 @@ import styles from "./header.module.css";
 import logo from "../../assets/img/logo.svg";
 import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faXmark, faCircleQuestion } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faCircleQuestion } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram, faGithub, faDiscord } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
@@ -57,13 +57,13 @@ const Header = () => {
         <div className={styles.SidebarLine2}></div>
         <div className={styles.ContactsCt}>
           <div className={styles.contacts}>
-            <a href="https://www.instagram.com/m._je2/" target="_blank">
+    <a href="https://www.instagram.com/m._je2/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} color="white" size="3x" className={styles.instagram} />
             </a>
-            <a href="https://github.com/MJEvision" target="_blank">
+            <a href="https://github.com/MJEvision" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} color="white" size="3x" className={styles.github} />
             </a>
-            <a href="https://www.discord.com/users/1019955401497788497" target="_blank">
+            <a href="https://www.discord.com/users/1019955401497788497" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faDiscord} color="white" size="3x" className={styles.discord} />
             </a>
           </div>
