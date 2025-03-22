@@ -6,7 +6,7 @@ import styles from "./vh.module.css";
 const Vh = () => {
     const [vh, setVh] = useState("");
     const [pxInput, setPxInput] = useState(""); 
-    const [showAlert, setShowAlert] = useState(false); // 🔹 알림창 상태 추가
+    const [showAlert, setShowAlert] = useState(false); 
 
     const handlePxChange = (e) => {
         let value = e.target.value.replace(/[^\d]/g, ""); 
@@ -26,8 +26,8 @@ const Vh = () => {
     const handleCopy = () => {
         if (vh) {
             navigator.clipboard.writeText(`${vh}`).then(() => {
-                setShowAlert(true); // 🔹 알림창 보이게 설정
-                setTimeout(() => setShowAlert(false), 2000); // 🔹 2초 후 자동 숨김
+                setShowAlert(true); 
+                setTimeout(() => setShowAlert(false), 2000); 
             });
         }
     };
@@ -55,7 +55,7 @@ const Vh = () => {
                         type="text"
                         value={vh}
                         readOnly
-                        onClick={handleCopy} // 🔹 클릭 시 복사 실행
+                        onClick={handleCopy} 
                         className={styles.input}
                     />
                     <div className={styles.text4}>VH</div>
@@ -65,7 +65,6 @@ const Vh = () => {
                 © {new Date().getFullYear()} RPXWebsite. All Rights Reserved.
             </footer>
 
-            {/* 🔹 CSS로 꾸민 알림창 */}
             <div className={`${styles.alertBox} ${showAlert ? styles.show : ""}`}>
                 변환 값이 복사되었습니다!
             </div>
